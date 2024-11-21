@@ -1,0 +1,81 @@
+# Go specific ignores
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Go build and test cache
+/vendor/
+/Godeps/
+/.go/
+
+# Security tool specific
+*.log
+results/
+reports/
+scans/
+temp/
+.env
+config.yaml
+config.yml
+secrets.yaml
+secrets.yml
+
+# Test data and output
+test-results/
+coverage/
+*.coverage
+*.report
+
+# Binary files
+/bin/
+/build/
+
+# IDE specific files
+.idea/
+.vscode/
+.history/
+.lh/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Debug files
+debug
+__debug_bin
+*.pprof
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.pfx
+*.p12
+
+# Local development environment
+dev.env
+local.env
+*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
